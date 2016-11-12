@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 from subprocess import call, Popen, PIPE
+from config import GIT_USERNAME, GIT_EMAIL
 
 #=========================#
 # Definition of functions #
@@ -93,5 +94,5 @@ else:
     print "Error: No applications defined"
 
 print "Configuring applications..."
-call("git config --global user.name \"Florian Steitz\"", shell=True)
-call("git config --global user.email \"test@example.com\"", shell=True)
+call("git config --global user.name \"%s\"" % GIT_USERNAME, shell=True)
+call("git config --global user.email \"%s\"" % GIT_EMAIL, shell=True)
