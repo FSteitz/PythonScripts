@@ -1,6 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
+"""
+Copyright (c) 2016 Florian Steitz
+
+Installs a standard set of applications via the command line and performs further administration
+tasks.
+"""
+
 from subprocess import call, Popen, PIPE
 from config import GIT_USERNAME, GIT_EMAIL
 
