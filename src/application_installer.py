@@ -28,6 +28,7 @@ def define_application_list():
         ["hunspell-de-de-frami", True],
         ["inkscape", True],
         ["libreoffice", True],
+        ["keepass2", True],
         ["meld", True],
         ["steam", True],
         ["texlive", True],
