@@ -24,7 +24,6 @@ def define_application_list():
         # Applications with a graphical user interface
         ["blender", True],
         ["ca-certificates", True],
-        ["clementine", True],
         ["cherrytree", True],
         ["chromium-browser", True],
         ["chromium-codecs-ffmpeg-extra", True],
@@ -43,7 +42,7 @@ def define_application_list():
         ["texmaker", True],
         ["uget", True],
         ["virtualbox", True],
-        ["virtualbox-guest-additions", True],
+        ["virtualbox-guest-additions-iso", True],
         ["vlc", True],
         ["wireshark", True],
         ["xsane", True],
@@ -52,11 +51,12 @@ def define_application_list():
         ["curl", True],
         ["gdb", True],
         ["git", True],
-        ["gvfs-backend", True],
+        ["gvfs-backends", True],
         ["g++", True],
         ["nano", True],
-        ["open-jdk-7", True],
-        ["open-jdk-7-source", True]
+        ["openjdk-8-doc", True],
+        ["openjdk-8-jdk", True],
+        ["openjdk-8-source", True]
     ]
 
     return application_list
