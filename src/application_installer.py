@@ -6,6 +6,8 @@ Copyright (c) 2016 Florian Steitz
 
 Installs a standard set of applications via the command line and performs further administration
 tasks.
+
+This script only works correctly on Ubuntu 16.04 and later.
 """
 
 from subprocess import call, Popen, PIPE
