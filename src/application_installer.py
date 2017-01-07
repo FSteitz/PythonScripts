@@ -38,7 +38,9 @@ def define_application_list():
         ["libreoffice", True],
         ["keepass2", True],
         ["meld", True],
+        ["pidgin", True],
         ["steam", True],
+        ["telegram-purple", True], # Currently requires a PPA, e.g. ppa:nilarimogard/webupd8
         ["texlive", True],
         ["texlive-lang-german", True],
         ["texmaker", True],
