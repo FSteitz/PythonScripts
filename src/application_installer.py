@@ -69,15 +69,23 @@ def define_application_list():
         ["xsane", True],
 
         # Applications without a graphical user interface
+        ["apache2", True],
         ["curl", True],
         ["gdb", True],
         ["git", True],
         ["gvfs-backends", True],
+        ["gcc", True],
         ["g++", True],
         ["nano", True],
+        ["npm", True],
         ["openjdk-8-doc", True],
         ["openjdk-8-jdk", True],
-        ["openjdk-8-source", True]
+        ["openjdk-8-source", True],
+        ["python3", True],
+        ["python3-pip", True],
+        ["ruby", True],
+        ["ruby-dev", True],
+        ["ssh", True]
     ]
 
     return application_list
