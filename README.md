@@ -1,2 +1,2 @@
 # Python Scripts
-A set of small scripts written in Python used internally at flomit.
+A set of small utility scripts written in Python.
